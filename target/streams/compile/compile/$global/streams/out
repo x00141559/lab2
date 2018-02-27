@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/lab2/app/views/updateProduct.scala.html:15:22: value inCategory is not a member of object models.Category[0m
+[0m[[0m[31merror[0m] [0m[0m        @if(Category.inCategory(value.toLong, id)) {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
