@@ -25,10 +25,10 @@
       }
       <thead>
         <tr>
-          <th></th>
+         
           <th>ID</th>
           <th>Name</th>
-          <th>Category</th>
+    
           <th>Description</th>
           <th>Stock</th>
           <th>Price</th>
@@ -48,7 +48,7 @@
             <td><a href="@routes.HomeController.productDetails(p.getId)">
                 @p.getName</td>
                </a>
-            <td>@p.getCategory.getName</td>        
+           
             <td>@p.getDescription</td>
             <td  class="numeric">@p.getStock</td>
             <td  class="numeric">€ @("%.2f".format(p.getPrice))</td>

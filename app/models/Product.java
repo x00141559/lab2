@@ -27,6 +27,8 @@ public class Product extends Model {
         @Constraints.Required
         private double price; 
 
+        //List of category ids - this will be bound to checkboxes in the view form
+        public List<Long> catSelect = new ArrayList<Long>();
         public static final Finder<Long, Product> find = new Finder<>(Product.class);
     
 
@@ -64,6 +66,10 @@ public class Product extends Model {
             return category;
         }
         
+        public List<Long> getCatSelect() {
+            return catSelect;
+        }
+
         public void setCategory(Category c) {
             this.category = c;
         }
